@@ -1,4 +1,4 @@
-import { deleteContact } from 'components/redux/reducer';
+import { deleteContact } from 'redux/reducer';
 import { useSelector, useDispatch } from 'react-redux';
 
 export const ContactList = () => {

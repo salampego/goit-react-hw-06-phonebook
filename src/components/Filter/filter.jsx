@@ -1,4 +1,4 @@
-import { filterContact } from 'components/redux/reducer';
+import { filterContact } from 'redux/reducer';
 import { useDispatch } from 'react-redux';
 
 export const Filter = () => {
