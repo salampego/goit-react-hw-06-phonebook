@@ -1,6 +1,5 @@
 import './App.css';
-
-import { ContactForm } from './ContactForm/contactForm';
+import { ContactForm } from './ContactForm/contactаorm';
 import { Filter } from './Filter/filter';
 import { ContactList } from './ContactList/contactList';
 
