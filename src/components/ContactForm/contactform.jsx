@@ -29,7 +29,6 @@ export function ContactForm() {
 
   const onSubmit = e => {
     e.preventDefault();
-    console.log(name);
     if (contacts.find(item => item.name.toLowerCase() === name.toLowerCase())) {
       alert(`${name}, is already in your contacts`);
       return;
